@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apyati</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/util.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+    <div class="container-fluid" style="padding:0px;">
+        <nav class="navbar navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-expand-xl navbar-light bg-light fixed-top pt-3 pb-3">
+            <a class="navbar-brand pl-5" href="#">APYATI</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link mr-3 ml-3" 
+                            href="#" 
+                            data-toggle="modal" 
+                            data-target="#login"
+                        >
+                            Login
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a 
+                            class="nav-link mr-3 ml-3" 
+                            href="#"
+                            data-toggle="modal" 
+                            data-target="#signup"
+                        >
+                            Sign Up
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img src="./assets/images/stock-photo-microbiology-and-pharmaceutical-research-background-d-illustration-647026912.jpg" 
+                    alt="" 
+                    class="img-fluid"
+                >
+            </div>
+        </div>    
+        <div class="row  text-center pt-5 pb-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4 style="font-weight: bold;">How Apyati Works </h4>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                        <img src="./assets/images/signup.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto services" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span class="text-center font-weight-bold">
+                                Sign Up
+                            </span>
+                            <br>
+                            <span>
+                                Request Credentials by giving Name, Contact No. and E-mail 
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                        <img src="./assets/images/get_credentials.jpg" 
+                            class="img-fluid rounded-circle ml-auto mr-auto services" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span class="text-center font-weight-bold">
+                                Get Credentials
+                            </span>
+                            <br>
+                            <span>
+                                Apyati team sets up and share Credentials 
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                        <img src="./assets/images/signIn.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto services" 
+                            alt=""
+                            id="signin"
+                        >
+                        <br>
+                        <caption>
+                            <span class="text-center font-weight-bold">
+                                Sign In
+                            </span>
+                            <br>
+                            <span>
+                                Use credentials to Sign in and start use it
+                            </span>
+                        </caption>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row pt-5 pb-5 text-center" style="background-color:rgb(225, 233, 233);">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4 style="font-weight: bold;">Customer Experience </h4>
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                        <img src="./assets/images/signup.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto customerExperience" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span class="text-center font-weight-bold">
+                                Sign Up
+                            </span>
+                            <br>
+                            <span>
+                                Request Credentials by giving Name, Contact No. and E-mail 
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                        <img src="./assets/images/get_credentials.jpg" 
+                            class="img-fluid rounded-circle ml-auto mr-auto customerExperience" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span class="text-center font-weight-bold">
+                                Get Credentials
+                            </span>
+                            <br>
+                            <span>
+                                Apyati team sets up and share Credentials 
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+                        <img src="./assets/images/signIn.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto customerExperience" 
+                            alt=""
+                            id="signin"
+                        >
+                        <br>
+                        <caption>
+                            <span class="text-center font-weight-bold">
+                                Sign In
+                            </span>
+                            <br>
+                            <span>
+                                Use credentials to Sign in and start use it
+                            </span>
+                        </caption>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row  text-center pt-5 pb-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <h4 style="font-weight: bold;">Why Apyati </h4>
+                <div class="row">
+                    <div class="col-sm-1 col-xs-0 col-md-1 col-lg-1 col-xl-1 mt-1"></div>
+                    <div class="col-sm-2col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/logistics_efficiency.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Manage Logistics Efficiently 
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/increase_revenue.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Increase Revenue
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/business.png" 
+                            class="img-fluid  ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Scale Business Quickly
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/focus_on_critical_reports.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Focus on Critical Reports
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/eliminate_human_errors.png" 
+                            class="img-fluid ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Eliminate Human Errors
+                            </span>
+                        </caption>
+                    </div>
+                </div>
+                <br>
+                <!-- <div class="row">
+                    <div class="col-sm-2 col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/focus_on_critical_reports.png" 
+                            class="img-fluid rounded-circle ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Focus on Critical Reports
+                            </span>
+                        </caption>
+                    </div>
+                    <div class="col-sm-2 col-xs-12 col-md-2 col-lg-2 col-xl-2 mt-5">
+                        <img src="./assets/images/eliminate_human_errors.png" 
+                            class="img-fluid ml-auto mr-auto apyati_pros" 
+                            alt=""
+                        >
+                        <br>
+                        <caption>
+                            <span>
+                                Eliminate Human Errors
+                            </span>
+                        </caption>
+                    </div>
+                </div> -->
+                <br>
+
+            </div>
+        </div>
+        <br>
+        <div class="row pt-5 pb-3" style="background-color: black;">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="row" style="color: white;">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <h5 class="text-center">
+                            What Apyati Contains ?
+                        </h5>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                                <span class="pl-5 pr-2">
+                                    Doctors accounts management
+                                </span>|
+                                <span class="pl-2 pr-2">
+                                    Register Patient
+                                </span>|
+                                <span class="pl-2 pr-2">
+                                    Billing
+                                </span>|
+                                <span class="pl-2 pr-2">
+                                    Investigation Test reporting
+                                </span>|
+                                <span class="pl-2 pr-2">
+                                    E-mail reports
+                                </span>|
+                                <span class="pl-2 pr-2">
+                                    BI reports
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <h6 class="text-left pl-5" style="color:white;">ABOUT US</h6>
+                        <br>
+                        <article class="pl-5 pr-5" style="color:white;">
+                                Finsol offers tremendous flexibility and a good culture fit to any organisation. 
+                                Finally, in Finsol you see a strategic partner that is ready to go that extra mile. 
+                                Finsol has consistently demonstrated high levels of business and technical knowledge, creativity and delivery excellence. You remain highly satisfied.
+                        </article>
+                        <br>
+                        <p  class="pl-5 pr-5">
+                            <a target="_blank" href="http://finsolconsultancy.com/" style="color:white;">
+                                Read More →
+                            </a>
+                        </span>
+                    </div>    
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <h6 class="text-left pl-5 pr-5 ml-5" style="color:white;">CONTACT US</h6>
+                        <br>
+                        <ul style="color:white;list-style: none;" class="pl-5 pr-5">
+                            <li>
+                                <span class="pl-5 pr-2">
+                                    <i class="far fa-building"></i>
+                                </span>
+                                <span class="pl-1 pr-5">
+                                    Finsol Consultancy Pvt. Ltd.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="pl-5 pr-2" style="color:white;">
+                                    <i class="fas fa-map-marker"></i>
+                                </span>
+                                <span class="pl-1 pr-5">
+                                    25-D, SDF-1,VSEZ, Duvvada, Visakhapatnam - 530049.
+                                </span>
+                            </li>
+                            <li>
+                                <span class="pl-5 pr-2">
+                                    <i class="far fa-envelope"></i>
+                                </span>
+                                <span class="pl-1 pr-5">
+                                    Email: info@finsolconsultancy.com
+                                </span>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+            <div class="row" style="width: 100%;color: white;">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <span class="pl-5">
+                        © Copyright 2018 by Finsol Consultancy Pvt Ltd. All Rights Reserved.
+                    </span>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                    <span class="float-right">
+                        For Better Performance, use FireFox and Edge Browsers
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Login Modal -->
+        <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content pb-5 mb-5" style="width:75%;">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <br>
+                        <form class="login100-form validate-form">
+                            <span class="login100-form-title p-b-26">
+                                Login
+                            </span>
+                            <div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+                                <input class="input100" type="text" name="email">
+                                <span class="focus-input100" data-placeholder="Email"></span>
+                            </div>
+        
+                            <div class="wrap-input100 validate-input" data-validate="Enter password">
+                                <input class="input100" type="password" name="pass">
+                                <span class="focus-input100" data-placeholder="Password"></span>
+                            </div>
+        
+                            <div class="container-login100-form-btn">
+                                <div class="wrap-login100-form-btn">
+                                    <div class="login100-form-bgbtn"></div>
+                                    <button class="login100-form-btn">
+                                        Login
+                                    </button>
+                                </div>
+                            </div>
+        
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SignUp Modal -->
+        <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="signup" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content pb-5 mb-5" style="width:75%;">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <br>
+                        <form class="login100-form validate-form">
+                            <span class="login100-form-title p-b-26">
+                                Request a Demo
+                            </span>
+                            <div class="wrap-input100 validate-input" data-validate = "Enter Valid Name">
+                                <input class="input100" type="text" name="name">
+                                <span class="focus-input100" data-placeholder="Name"></span>
+                            </div>
+        
+                            <div class="wrap-input100 validate-input" data-validate="Valid email is: a@b.c ">
+                                <input class="input100" type="email" name="email">
+                                <span class="focus-input100" data-placeholder="E-mail Address"></span>
+                            </div>
+
+                            <div class="wrap-input100 validate-input" data-validate="Enter Valid Phone Number">
+                                <input class="input100" type="text" name="phoneNo">
+                                <span class="focus-input100" data-placeholder="Phone Number"></span>
+                            </div>
+        
+                            <div class="container-login100-form-btn">
+                                <div class="wrap-login100-form-btn">
+                                    <div class="login100-form-bgbtn"></div>
+                                    <button class="login100-form-btn">
+                                        Request
+                                    </button>
+                                </div>
+                            </div>
+        
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+
+    <script src="assets/vendor/animsition/js/animsition.min.js"></script>
+	<script src="assets/vendor/select2/select2.min.js"></script>
+	<script src="assets/vendor/daterangepicker/moment.min.js"></script>
+	<script src="assets/vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="assets/vendor/countdowntime/countdowntime.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

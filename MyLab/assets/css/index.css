@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.navbar-brand {
+    font-style: normal;
+    font-weight: bold;
+}
+.nav-item:hover {
+    background-color: rgb(231, 231, 231);
+    font-weight: bold;
+}
+.services {
+    height:60%;
+    width: 16%;
+}
+.services#signin {
+    height:60%;
+    width: 20%;
+}
+.customerExperience {
+    height:60%;
+    width: 16%;
+}
+.customerExperience#signin {
+    height:60%;
+    width: 20%;
+}
+.apyati_pros {
+    height:60%;
+    width: 30%;
+}
